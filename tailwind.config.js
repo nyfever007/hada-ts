@@ -7,7 +7,11 @@ module.exports = {
     './lib/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['"Noto Sans KR"', 'sans-serif'],
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
